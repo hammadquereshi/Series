@@ -1,0 +1,122 @@
+/******************************************
+ CUSTOM STYLESHEET
+*******************************************/
+
+/*
+* You can place your custom CSS statements in this file, after this message.
+* It is better to write everything custom here
+* because this file won't be replaced during updates.
+*
+* Simply copy an existing style from style.css to this file,
+* and modify it to your liking.
+*/
+
+.recent-posts li {
+    margin: 0px 0px 0px 0px;
+    width: 135px;
+}
+
+ul {  list-style-type: none; }
+li {  list-style-type: none; }
+
+.recent-posts .post-thumb img {
+    max-width: 100%;
+    width: 135px;
+    min-height: 200px;
+}
+
+@media screen and (max-width: 640px) {
+   .recent-posts li { display: inline-block; }
+   .recent-posts .post-thumb { width: 100%; }
+   .recent-posts .post-thumb img { width: 100%;  }
+   .recent-posts .post-content { overflow: visible; }
+}
+
+.recent-posts .post-content {
+    padding: 0 0;
+}
+
+
+/* altre parti */
+
+.main-navbar {
+    padding: 0px;
+    margin: 0px 0px 20px;
+}
+
+.section-title {
+    margin: 0px 0px 20px;
+}
+
+.navbar-brand {
+    margin: 20px 0px;
+    float: left;
+}
+
+.recent-posts h2 {
+    font-size: 14px;
+    margin: 1px 1px 1px;
+    line-height: 1.4;
+}
+
+.recent-posts .post-content {
+     border-radius: 3px 3px 3px 3px;
+}
+
+.recent-posts .post-thumb img {
+    border-radius: 3px 3px 3px 3px;
+}
+
+.post-meta {
+    display: block;
+    font-size: 12px;
+    margin: 0px 0px 1px;
+}
+
+.recent-posts li:nth-child(3n+3) {
+    margin-bottom: 10px;
+}
+
+.top-navbar {
+    padding: 10px 0px 20px;
+}
+
+body { color: #ababab; }
+
+a {
+    text-decoration:none;
+    color: #39EA32;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #696C69;
+}
+
+.recent-posts li:hover .post-content {
+    background-color: #2A2D2A;
+}
+
+.navbar-search {
+    margin: 8px 30px;
+}
+
+#respond textarea { width: 60% }
+
+.widget {
+    margin-bottom: 10px;
+}
+
+.widget h3.title {
+    margin: 0 0 5px;
+}
+
+#footer { margin-top: 10px; padding: 10px 0; }
+
+/* custom di popular post */
+
+.wpp-post-title { display:none; }
+.post-stats { display:none; }
+img.wpp-thumbnail {
+	margin-right:1px;
+}
