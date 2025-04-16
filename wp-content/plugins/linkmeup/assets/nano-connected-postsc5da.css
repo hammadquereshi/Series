@@ -1,0 +1,16 @@
+/*Button Container*/
+.nano_cp_container{
+    text-align: center;
+}
+/*Button*/
+span.nano_cp_button{
+    cursor: pointer;
+    font-size: 24px;
+    color:#39EA32;
+    font-weight: bold;
+    }
+/*Button Hover*/
+span.nano_cp_button:hover{
+    color: #ccc;
+    text-decoration: underline;
+}
